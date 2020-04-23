@@ -1,0 +1,8 @@
+body {
+	background: -webkit-linear-gradient(to right, #ccc, #555);
+	background: linear-gradient(to right, #ccc, #555);
+}
+
+.nigriti {
+	font-weight: bold;
+}

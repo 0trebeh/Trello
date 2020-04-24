@@ -14,6 +14,7 @@ import register from './components/Register'
 import login from './components/Login'
 import perfil from './components/Perfil'
 import EditBoard from './components/EditBoard'
+import home from './components/Home'
 
 import './public/css/App.css'
 
@@ -22,7 +23,8 @@ function App() {
     <Router>
       <Navigation />
       <div className="container p-4">
-        <Route path="/" exact component= {BoardList} />
+        <Route path="/" exact component= {home} />
+        <Route path="/boards" component= {BoardList} />
         <Route path="/board/:id" component= {EditBoard} />
         <Route path="/register" component= {register} />
         <Route path="/login" component= {login} />

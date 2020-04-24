@@ -6,3 +6,9 @@ body {
 .nigriti {
 	font-weight: bold;
 }
+
+.Backg {
+	background-image: url('../img/Trello.jpg') !important;
+	background-repeat: no-repeat !important ;
+	background-repeat: cover !important ;
+}

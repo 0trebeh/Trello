@@ -39,7 +39,7 @@ class Navigation extends Component {
 
                             <div className="navbar-nav">
                                 <li className="nav-item active ml-auto">
-                                    <Link to="/" className="nav-link">tablas</Link>
+                                    <Link to="/boards" className="nav-link">tablas</Link>
                                 </li>
                                 <li className="nav-item active ml-auto">
                                     <Link to="/perfil/" className="nav-link">Perfil</Link>
